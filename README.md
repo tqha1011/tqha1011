@@ -17,44 +17,30 @@
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-328.52%20thousand%20lines%20of%20code-blue?style=flat)
 
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 9 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 8 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                207 commits         █████░░░░░░░░░░░░░░░░░░░░   19.18 % 
-🌆 Daytime                256 commits         ██████░░░░░░░░░░░░░░░░░░░   23.73 % 
-🌃 Evening                578 commits         █████████████░░░░░░░░░░░░   53.57 % 
+🌞 Morning                207 commits         █████░░░░░░░░░░░░░░░░░░░░   19.17 % 
+🌆 Daytime                256 commits         ██████░░░░░░░░░░░░░░░░░░░   23.70 % 
+🌃 Evening                579 commits         █████████████░░░░░░░░░░░░   53.61 % 
 🌙 Night                  38 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
 ```
 📅 **I'm Most Productive on Tuesday** 
 
 ```text
-Monday                   162 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.01 % 
-Tuesday                  382 commits         █████████░░░░░░░░░░░░░░░░   35.40 % 
-Wednesday                102 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.45 % 
-Thursday                 59 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.47 % 
-Friday                   98 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.08 % 
-Saturday                 155 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.37 % 
-Sunday                   121 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.21 % 
+Monday                   162 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.00 % 
+Tuesday                  382 commits         █████████░░░░░░░░░░░░░░░░   35.37 % 
+Wednesday                103 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.54 % 
+Thursday                 59 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.46 % 
+Friday                   98 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.07 % 
+Saturday                 155 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.35 % 
+Sunday                   121 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.20 % 
 ```
 
 
 📊 **This Week I Spent My Time On** 
 
 ```text
-🕑︎ Time Zone: Asia/Ho_Chi_Minh
-
 💬 Programming Languages: 
 No Activity Tracked This Week
 
@@ -72,10 +58,6 @@ Dart                     1 repo              █████░░░░░░�
 
 
 
-**Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/tqha1011/tqha1011/main/assets/bar_graph.png)
-
-
- Last Updated on 11/02/2026 16:37:36 UTC
+ Last Updated on 11/02/2026 16:45:14 UTC
 <!--END_SECTION:waka-->
