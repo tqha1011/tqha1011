@@ -1,3 +1,10 @@
+## 🐍 My Contribution Snake
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tqha1011/tqha1011/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tqha1011/tqha1011/output/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tqha1011/tqha1011/output/github-snake.svg">
+</picture>
+
 ### 📊 My Github Stats
 
 <p align="left">
