@@ -18,9 +18,9 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%2042%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-115-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-134-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-328.52%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -49,10 +49,14 @@ Sunday                   121 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-C#                       0 secs              █████████████████████████   100.00 % 
+Markdown                 2 hrs 54 mins       ███████████████████████░░   91.10 % 
+Docker                   11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
+C#                       5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
 
 🔥 Editors: 
-Rider                    0 secs              █████████████████████████   100.00 % 
+Obsidian                 2 hrs 54 mins       ███████████████████████░░   91.10 % 
+Rider                    17 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
 ```
 
 **I Mostly Code in C#** 
@@ -66,5 +70,5 @@ Dart                     1 repo              █████░░░░░░�
 
 
 
- Last Updated on 12/02/2026 17:56:48 UTC
+ Last Updated on 13/02/2026 17:39:44 UTC
 <!--END_SECTION:waka-->
