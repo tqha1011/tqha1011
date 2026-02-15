@@ -18,7 +18,7 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%20hrs%2011%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%20hrs%2027%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-136-blue?style=flat)
 
@@ -49,14 +49,14 @@ Sunday                   121 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 2 hrs 54 mins       ███████████████████████░░   91.10 % 
-Docker                   11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
-C#                       5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
+Markdown                 3 hrs 6 mins        ██████████████████████░░░   89.89 % 
+Docker                   11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.69 % 
+C#                       8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.31 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
 
 🔥 Editors: 
-Obsidian                 2 hrs 54 mins       ███████████████████████░░   91.10 % 
-Rider                    17 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
+Obsidian                 3 hrs 6 mins        ██████████████████████░░░   89.89 % 
+Rider                    20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.11 % 
 ```
 
 **I Mostly Code in C#** 
@@ -70,5 +70,5 @@ Dart                     1 repo              █████░░░░░░�
 
 
 
- Last Updated on 14/02/2026 17:25:36 UTC
+ Last Updated on 15/02/2026 17:25:08 UTC
 <!--END_SECTION:waka-->
