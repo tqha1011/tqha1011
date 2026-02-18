@@ -18,9 +18,9 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-6%20hrs%2048%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-7%20hrs%2038%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-138-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-140-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-328.52%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -49,15 +49,15 @@ Sunday                   121 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 4 hrs 3 mins        ███████████████░░░░░░░░░░   59.74 % 
-YAML                     1 hr 16 mins        █████░░░░░░░░░░░░░░░░░░░░   18.65 % 
-C#                       35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.71 % 
-Docker                   26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.57 % 
-SQL                      11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.81 % 
+Markdown                 4 hrs 22 mins       ██████████████░░░░░░░░░░░   57.14 % 
+YAML                     1 hr 37 mins        █████░░░░░░░░░░░░░░░░░░░░   21.23 % 
+C#                       45 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.99 % 
+Docker                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.84 % 
+SQL                      12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.65 % 
 
 🔥 Editors: 
-Obsidian                 4 hrs 3 mins        ███████████████░░░░░░░░░░   59.74 % 
-Rider                    2 hrs 44 mins       ██████████░░░░░░░░░░░░░░░   40.26 % 
+Obsidian                 4 hrs 22 mins       ██████████████░░░░░░░░░░░   57.14 % 
+Rider                    3 hrs 16 mins       ███████████░░░░░░░░░░░░░░   42.86 % 
 ```
 
 **I Mostly Code in C#** 
@@ -71,5 +71,5 @@ Dart                     1 repo              █████░░░░░░�
 
 
 
- Last Updated on 17/02/2026 17:55:36 UTC
+ Last Updated on 18/02/2026 17:52:14 UTC
 <!--END_SECTION:waka-->
