@@ -45,15 +45,15 @@ Sunday                   132 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-C#                       3 hrs 38 mins       ███████████░░░░░░░░░░░░░░   43.44 % 
-Markdown                 3 hrs 1 min         █████████░░░░░░░░░░░░░░░░   35.99 % 
-YAML                     1 hr 8 mins         ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
-JSON                     21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 % 
-GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.05 % 
+C#                       6 hrs 10 mins       █████████████░░░░░░░░░░░░   51.14 % 
+Markdown                 3 hrs 30 mins       ███████░░░░░░░░░░░░░░░░░░   29.05 % 
+YAML                     1 hr 24 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.64 % 
+SQL                      23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.30 % 
+JSON                     21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.98 % 
 
 🔥 Editors: 
-Rider                    5 hrs 23 mins       ████████████████░░░░░░░░░   64.35 % 
-Obsidian                 2 hrs 59 mins       █████████░░░░░░░░░░░░░░░░   35.65 % 
+Rider                    8 hrs 35 mins       ██████████████████░░░░░░░   71.19 % 
+Obsidian                 3 hrs 28 mins       ███████░░░░░░░░░░░░░░░░░░   28.81 % 
 ```
 
 **I Mostly Code in C#** 
@@ -67,5 +67,5 @@ Dart                     1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 01/03/2026 17:25:42 UTC
+ Last Updated on 02/03/2026 17:44:42 UTC
 <!--END_SECTION:waka-->
