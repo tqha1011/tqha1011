@@ -18,26 +18,26 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-459.13%20thousand%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-471.14%20thousand%20lines%20of%20code-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                351 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.17 % 
-🌆 Daytime                821 commits         ████████░░░░░░░░░░░░░░░░░   33.14 % 
-🌃 Evening                1193 commits        ████████████░░░░░░░░░░░░░   48.16 % 
-🌙 Night                  112 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 % 
+🌞 Morning                361 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.18 % 
+🌆 Daytime                854 commits         ████████░░░░░░░░░░░░░░░░░   33.56 % 
+🌃 Evening                1218 commits        ████████████░░░░░░░░░░░░░   47.86 % 
+🌙 Night                  112 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   242 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.77 % 
-Tuesday                  418 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.88 % 
-Wednesday                554 commits         ██████░░░░░░░░░░░░░░░░░░░   22.37 % 
-Thursday                 349 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.09 % 
-Friday                   322 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.00 % 
-Saturday                 340 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.73 % 
-Sunday                   252 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.17 % 
+Monday                   246 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.67 % 
+Tuesday                  418 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.42 % 
+Wednesday                572 commits         ██████░░░░░░░░░░░░░░░░░░░   22.48 % 
+Thursday                 349 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.71 % 
+Friday                   336 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.20 % 
+Saturday                 342 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.44 % 
+Sunday                   282 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.08 % 
 ```
 
 
@@ -45,28 +45,27 @@ Sunday                   252 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-C#                       32 hrs 27 mins      █████████████████████░░░░   85.66 % 
-YAML                     1 hr 2 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   02.73 % 
-Bash                     1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   02.71 % 
-Markdown                 57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
-JSON                     57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.51 % 
+C#                       27 hrs 53 mins      █████████████████████░░░░   83.60 % 
+Bash                     1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
+YAML                     1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.21 % 
+JSON                     59 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+Markdown                 51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
 
 🔥 Editors: 
-Rider                    36 hrs 55 mins      ████████████████████████░   97.45 % 
-Obsidian                 57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
+Rider                    32 hrs 29 mins      ████████████████████████░   97.40 % 
+Obsidian                 51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
 ```
 
 **I Mostly Code in C#** 
 
 ```text
-C#                       4 repos             ███████████░░░░░░░░░░░░░░   44.44 % 
+C#                       5 repos             ██████████████░░░░░░░░░░░   55.56 % 
 Dart                     2 repos             ██████░░░░░░░░░░░░░░░░░░░   22.22 % 
 Kotlin                   2 repos             ██████░░░░░░░░░░░░░░░░░░░   22.22 % 
-CSS                      1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
 ```
 
 
 
 
- Last Updated on 24/03/2026 17:56:19 UTC
+ Last Updated on 25/03/2026 17:59:04 UTC
 <!--END_SECTION:waka-->
