@@ -18,26 +18,26 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-471.14%20thousand%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-461.10%20thousand%20lines%20of%20code-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                361 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.18 % 
-🌆 Daytime                854 commits         ████████░░░░░░░░░░░░░░░░░   33.56 % 
-🌃 Evening                1218 commits        ████████████░░░░░░░░░░░░░   47.86 % 
-🌙 Night                  112 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
+🌞 Morning                342 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.32 % 
+🌆 Daytime                797 commits         ████████░░░░░░░░░░░░░░░░░   33.36 % 
+🌃 Evening                1148 commits        ████████████░░░░░░░░░░░░░   48.05 % 
+🌙 Night                  102 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.27 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   246 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.67 % 
-Tuesday                  418 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.42 % 
-Wednesday                572 commits         ██████░░░░░░░░░░░░░░░░░░░   22.48 % 
-Thursday                 349 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.71 % 
-Friday                   336 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.20 % 
-Saturday                 342 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.44 % 
-Sunday                   282 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.08 % 
+Monday                   238 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.96 % 
+Tuesday                  414 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.33 % 
+Wednesday                492 commits         █████░░░░░░░░░░░░░░░░░░░░   20.59 % 
+Thursday                 325 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.60 % 
+Friday                   314 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.14 % 
+Saturday                 315 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.19 % 
+Sunday                   291 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.18 % 
 ```
 
 
@@ -45,15 +45,15 @@ Sunday                   282 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-C#                       27 hrs 53 mins      █████████████████████░░░░   83.60 % 
-Bash                     1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
-YAML                     1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.21 % 
-JSON                     59 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
-Markdown                 51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
+C#                       26 hrs 50 mins      ██████████████████████░░░   86.93 % 
+YAML                     50 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.75 % 
+Bash                     45 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.46 % 
+Markdown                 44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.40 % 
+Docker                   29 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.58 % 
 
 🔥 Editors: 
-Rider                    32 hrs 29 mins      ████████████████████████░   97.40 % 
-Obsidian                 51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
+Rider                    30 hrs 7 mins       ████████████████████████░   97.60 % 
+Obsidian                 44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.40 % 
 ```
 
 **I Mostly Code in C#** 
@@ -67,5 +67,5 @@ Kotlin                   2 repos             ██████░░░░░�
 
 
 
- Last Updated on 25/03/2026 17:59:04 UTC
+ Last Updated on 26/03/2026 18:00:26 UTC
 <!--END_SECTION:waka-->
