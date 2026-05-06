@@ -45,26 +45,26 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.06%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-923.15%20thousand%20lines%20of%20code-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                687 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.04 % 
-🌆 Daytime                1448 commits        ████████░░░░░░░░░░░░░░░░░   33.81 % 
-🌃 Evening                1996 commits        ████████████░░░░░░░░░░░░░   46.60 % 
-🌙 Night                  152 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   03.55 % 
+🌞 Morning                592 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.33 % 
+🌆 Daytime                1187 commits        ████████░░░░░░░░░░░░░░░░░   32.74 % 
+🌃 Evening                1723 commits        ████████████░░░░░░░░░░░░░   47.52 % 
+🌙 Night                  124 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   03.42 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   497 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.60 % 
-Tuesday                  573 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.38 % 
-Wednesday                883 commits         █████░░░░░░░░░░░░░░░░░░░░   20.62 % 
-Thursday                 608 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.20 % 
-Friday                   641 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.97 % 
-Saturday                 554 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.93 % 
-Sunday                   527 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.30 % 
+Monday                   423 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.67 % 
+Tuesday                  537 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.81 % 
+Wednesday                698 commits         █████░░░░░░░░░░░░░░░░░░░░   19.25 % 
+Thursday                 480 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.24 % 
+Friday                   533 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.70 % 
+Saturday                 483 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.32 % 
+Sunday                   472 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.02 % 
 ```
 
 
@@ -72,13 +72,10 @@ Sunday                   527 commits         ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-C#                       1 hr 21 mins        ████████████████████████░   97.62 % 
-Bash                     1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   02.25 % 
-Csproj                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
-textmate                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Rider                    1 hr 23 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in C#** 
@@ -92,5 +89,5 @@ Kotlin                   2 repos             ██████░░░░░�
 
 
 
- Last Updated on 05/05/2026 18:11:09 UTC
+ Last Updated on 06/05/2026 18:16:42 UTC
 <!--END_SECTION:waka-->
