@@ -47,37 +47,6 @@
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.02%20million%20lines%20of%20code-blue?style=flat)
 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                629 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.26 % 
-🌆 Daytime                1155 commits        ████████░░░░░░░░░░░░░░░░░   31.69 % 
-🌃 Evening                1750 commits        ████████████░░░░░░░░░░░░░   48.01 % 
-🌙 Night                  111 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   03.05 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   425 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.66 % 
-Tuesday                  562 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.42 % 
-Wednesday                632 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.34 % 
-Thursday                 460 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
-Friday                   544 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.92 % 
-Saturday                 507 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.91 % 
-Sunday                   515 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.13 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-```
-
 **I Mostly Code in C#** 
 
 ```text
@@ -90,5 +59,5 @@ TypeScript               1 repo              ███░░░░░░░░�
 
 
 
- Last Updated on 14/05/2026 18:54:08 UTC
+ Last Updated on 15/05/2026 18:23:18 UTC
 <!--END_SECTION:waka-->
