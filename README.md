@@ -45,38 +45,7 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.81%20million%20lines%20of%20code-blue?style=flat)
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                1010 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.11 % 
-🌆 Daytime                2148 commits        █████████░░░░░░░░░░░░░░░░   34.26 % 
-🌃 Evening                2902 commits        ████████████░░░░░░░░░░░░░   46.29 % 
-🌙 Night                  209 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   711 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.34 % 
-Tuesday                  803 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.81 % 
-Wednesday                1195 commits        █████░░░░░░░░░░░░░░░░░░░░   19.06 % 
-Thursday                 902 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.39 % 
-Friday                   965 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.39 % 
-Saturday                 834 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
-Sunday                   859 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-```
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-2.07%20million%20lines%20of%20code-blue?style=flat)
 
 **I Mostly Code in Kotlin** 
 
@@ -90,5 +59,5 @@ Dart                     2 repos             █████░░░░░░�
 
 
 
- Last Updated on 06/06/2026 18:05:25 UTC
+ Last Updated on 07/06/2026 18:04:50 UTC
 <!--END_SECTION:waka-->
