@@ -45,26 +45,26 @@
 </picture>
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.77%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.76%20million%20lines%20of%20code-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                897 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.20 % 
-🌆 Daytime                2063 commits        █████████░░░░░░░░░░░░░░░░   34.97 % 
-🌃 Evening                2735 commits        ████████████░░░░░░░░░░░░░   46.36 % 
-🌙 Night                  205 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   03.47 % 
+🌞 Morning                871 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.95 % 
+🌆 Daytime                2047 commits        █████████░░░░░░░░░░░░░░░░   35.12 % 
+🌃 Evening                2705 commits        ████████████░░░░░░░░░░░░░   46.41 % 
+🌙 Night                  205 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   674 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.42 % 
-Tuesday                  779 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.20 % 
-Wednesday                1073 commits        █████░░░░░░░░░░░░░░░░░░░░   18.19 % 
-Thursday                 837 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.19 % 
-Friday                   881 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
-Saturday                 786 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.32 % 
-Sunday                   870 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
+Monday                   666 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.43 % 
+Tuesday                  775 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
+Wednesday                1067 commits        █████░░░░░░░░░░░░░░░░░░░░   18.31 % 
+Thursday                 833 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
+Friday                   867 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.88 % 
+Saturday                 758 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.01 % 
+Sunday                   862 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.79 % 
 ```
 
 
@@ -90,5 +90,5 @@ Dart                     2 repos             █████░░░░░░�
 
 
 
- Last Updated on 13/06/2026 18:07:27 UTC
+ Last Updated on 14/06/2026 18:12:26 UTC
 <!--END_SECTION:waka-->
