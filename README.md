@@ -44,58 +44,6 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tqha1011/tqha1011/output/github-snake.svg">
 </picture>
 
-<!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.94%20million%20lines%20of%20code-blue?style=flat)
+---
 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                871 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.37 % 
-🌆 Daytime                2186 commits        ████████░░░░░░░░░░░░░░░░░   31.05 % 
-🌃 Evening                3497 commits        ████████████░░░░░░░░░░░░░   49.67 % 
-🌙 Night                  486 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   814 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.56 % 
-Tuesday                  1034 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.69 % 
-Wednesday                1135 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.12 % 
-Thursday                 1029 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.62 % 
-Friday                   1090 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.48 % 
-Saturday                 920 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.07 % 
-Sunday                   1018 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.46 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
-**I Mostly Code in TypeScript** 
-
-```text
-TypeScript               7 repos             ██████████░░░░░░░░░░░░░░░   41.18 % 
-Kotlin                   3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
-Dart                     2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.76 % 
-Lua                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-Python                   1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-```
-
-
-
-
- Last Updated on 03/09/2026 19:40:56 UTC
-<!--END_SECTION:waka-->
+[![trophy](https://trophygithubreadmelang.cybee.dpdns.org/?username=tqha1011)]
