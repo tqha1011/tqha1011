@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on: Backend Development , building robust and scalable systems<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with: Optimizing system performance, CI/CD & monitoring<br>🌱 I’m currently learning: Software Engineering
+🔭 I’m currently working on: Backend Development , building robust and scalable systems<br>👯 I’m looking to collaborate on hackathon or building-product contest<br>🤝 I’m looking for help with: Optimizing system performance, CI/CD & monitoring<br>🌱 I’m currently learning: Software Engineering
 
 
 ## 🌐 Socials:
