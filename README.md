@@ -1,22 +1,60 @@
-# 💫 About Me:
-- 🔭 Currently building: AI-integrated backend systems (RAG, embeddings, real-time features)
-- 🎯 Looking for: a backend / full-stack internship
-- 👯 Open to: hackathons and product-contest teams
-- 🌱 Learning: frontend development (React, TypeScript) alongside backend work
+<div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Terminal: whoami → Tran Quang Ha, backend engineer. Building AI-integrated backends: RAG, embeddings, queues, real-time." src="assets/header-light.svg" width="100%">
+</picture>
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/ha.tran.quang.710185) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/quang-h%E1%BA%A1-b6627a376/) 
+</div>
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=tqha1011&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=tqha1011&theme=tokyonight&hide_border=true)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=tqha1011&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+## Projects
 
+<div align="center">
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<a href="https://github.com/tqha1011/smart-knowledge-hub-backend">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-rag-dark.svg">
+    <img alt="smart-knowledge-hub-backend: upload, queue, chunk, embed, vector search, answer with sources" src="assets/card-rag-light.svg" width="100%">
+  </picture>
+</a>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<a href="https://github.com/tqha1011/FitworkBE-Nestjs">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-fitwork-dark.svg">
+    <img alt="FitWork: apply, queue, redact, evaluate with Gemini, validate evidence, notify" src="assets/card-fitwork-light.svg" width="100%">
+  </picture>
+</a>
+
+<a href="https://github.com/tqha1011/ShoeStore">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-shoestore-dark.svg">
+    <img alt="ShoeStore: checkout, order, QR payment, webhook, transaction with optimistic locking, SignalR" src="assets/card-shoestore-light.svg" width="100%">
+  </picture>
+</a>
+
+</div>
+
+## Stack
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Stack: C#, .NET, TypeScript, NestJS, PostgreSQL, pgvector, Prisma, EF Core, Redis, BullMQ, SignalR, Socket.IO, Gemini, Docker, Azure, Cloudflare, Vercel, GitHub Actions. Learning React and Jetpack Compose." src="assets/stack-light.svg" width="100%">
+</picture>
+
+</div>
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quang-h%E1%BA%A1-b6627a376/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/ha.tran.quang.710185)
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tqha1011/tqha1011/output/github-snake-dark.svg">
+  <img alt="Contribution graph as a snake game" src="https://raw.githubusercontent.com/tqha1011/tqha1011/output/github-snake.svg" width="100%">
+</picture>
+
+</div>
