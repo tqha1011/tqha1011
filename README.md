@@ -14,21 +14,21 @@
 <a href="https://github.com/tqha1011/smart-knowledge-hub-backend">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-rag-dark.svg">
-    <img alt="smart-knowledge-hub-backend: upload, queue, chunk, embed, vector search, answer with sources" src="assets/card-rag-light.svg" width="100%">
+    <img alt="smart-knowledge-hub-backend: a RAG question answered with sources, permission-aware retrieval over pgvector" src="assets/card-rag-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/tqha1011/FitworkBE-Nestjs">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-fitwork-dark.svg">
-    <img alt="FitWork: apply, queue, redact, evaluate with Gemini, validate evidence, notify" src="assets/card-fitwork-light.svg" width="100%">
+    <img alt="FitWork: AI resume evaluation with MATCHED, PARTIAL, MISSING verdicts and cited evidence; job-search p95 latency down 41.9%" src="assets/card-fitwork-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/tqha1011/ShoeStore">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-shoestore-dark.svg">
-    <img alt="ShoeStore: checkout, order, QR payment, webhook, transaction with optimistic locking, SignalR" src="assets/card-shoestore-light.svg" width="100%">
+    <img alt="ShoeStore: two buyers race for the last item; optimistic locking lets one order win and the other get a stock-changed conflict" src="assets/card-shoestore-light.svg" width="100%">
   </picture>
 </a>
 
