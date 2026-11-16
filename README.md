@@ -40,7 +40,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Stack: C#, .NET, TypeScript, NestJS, PostgreSQL, pgvector, Prisma, EF Core, Redis, BullMQ, SignalR, Socket.IO, Gemini, Docker, Azure, Cloudflare, Vercel, GitHub Actions. Learning React and Jetpack Compose." src="assets/stack-light.svg" width="100%">
+  <img alt="Stack: Java, Spring Boot, .NET, TypeScript, NestJS, PostgreSQL, pgvector, Prisma, EF Core, Redis, BullMQ, SignalR, Socket.IO, Gemini, Docker, Azure, Cloudflare, Vercel, GitHub Actions. Learning React and Jetpack Compose." src="assets/stack-light.svg" width="100%">
 </picture>
 
 </div>
