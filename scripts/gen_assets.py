@@ -258,11 +258,11 @@ def stack(theme):
     icons = ICONS[c["icons"]]
     W, padx, label_w, row, ch = 800, 28, 130, 46, 30
     H = 2 * 26 + row * len(STACK) - (row - ch)
-    o = [svg_open(W, H, ["d", "r", "b"]),
+    o = [svg_open(W, H, ["r", "b"]),
          f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="26" fill="{c["surface"]}" stroke="{c["line"]}"/>']
     y = 26
     for group, items in STACK:
-        o.append(f'<text class="d" x="{padx}" y="{y+ch/2+5.5}" font-size="16" fill="{c["text"]}">{escape(group)}</text>')
+        o.append(f'<text class="b" x="{padx}" y="{y+ch/2+5}" font-size="15" fill="{c["text"]}">{escape(group)}</text>')
         x = padx + label_w
         learning = group == "Learning"
         for it in items:
