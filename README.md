@@ -61,8 +61,7 @@
 
 ## Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-3438E8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quang-h%E1%BA%A1-b6627a376/)
-[![Facebook](https://img.shields.io/badge/Facebook-3438E8?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ha.tran.quang.710185)
+[LinkedIn](https://www.linkedin.com/in/quang-h%E1%BA%A1-b6627a376/) · [Facebook](https://www.facebook.com/ha.tran.quang.710185)
 
 <div align="center">
 
