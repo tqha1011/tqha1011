@@ -2,37 +2,51 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Terminal: whoami → Tran Quang Ha, backend engineer. Building AI-integrated backends: RAG, embeddings, queues, real-time." src="assets/header-light.svg" width="100%">
+  <img alt="Ha: Tran Quang Ha, backend engineer building AI-integrated systems: RAG, queues, real-time. Open to backend and full-stack internships." src="assets/header-light.svg" width="100%">
 </picture>
 
 </div>
 
 ## Projects
 
-<div align="center">
-
-<a href="https://github.com/tqha1011/smart-knowledge-hub-backend">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-rag-dark.svg">
-    <img alt="smart-knowledge-hub-backend: a RAG question answered with sources, permission-aware retrieval over pgvector" src="assets/card-rag-light.svg" width="100%">
-  </picture>
-</a>
-
-<a href="https://github.com/tqha1011/FitworkBE-Nestjs">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-fitwork-dark.svg">
-    <img alt="FitWork: AI resume evaluation with MATCHED, PARTIAL, MISSING verdicts and cited evidence; job-search p95 latency down 41.9%" src="assets/card-fitwork-light.svg" width="100%">
-  </picture>
-</a>
-
-<a href="https://github.com/tqha1011/ShoeStore">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-shoestore-dark.svg">
-    <img alt="ShoeStore: two buyers race for the last item; optimistic locking lets one order win and the other get a stock-changed conflict" src="assets/card-shoestore-light.svg" width="100%">
-  </picture>
-</a>
-
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/tqha1011/smart-knowledge-hub-backend">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/project-smart-knowledge-hub-dark.svg">
+          <img alt="smart-knowledge-hub-backend: AI knowledge base, ask your documents and get answers with sources. NestJS, pgvector, Redis, Gemini. Explore repository." src="assets/project-smart-knowledge-hub-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/tqha1011/FitworkBE-Nestjs">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/project-fitwork-dark.svg">
+          <img alt="FitworkBE-Nestjs: recruitment platform backend with AI resume evaluation and cited evidence. NestJS, Prisma, PostgreSQL, Redis. Explore repository." src="assets/project-fitwork-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/tqha1011/ShoeStore">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/project-shoestore-dark.svg">
+          <img alt="ShoeStore: shoe e-commerce with an Android app and ASP.NET Core API, optimistic locking on stock. Kotlin, Compose, ASP.NET, Docker. Explore repository." src="assets/project-shoestore-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/tqha1011?tab=repositories">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/project-more-dark.svg">
+          <img alt="More projects: view all repositories on GitHub." src="assets/project-more-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Stack
 
