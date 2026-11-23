@@ -4,7 +4,7 @@
 Usage:  python3 scripts/gen_assets.py
 Needs:  pip install fonttools brotli   (used only to measure text widths)
 
-Fonts live in scripts/fonts (Syne for display, Instrument Sans for text, both
+Fonts live in scripts/fonts (Syne Bold for display, Instrument Sans for text, both
 subset to printable ASCII) and are embedded into every SVG as base64, so the
 images render identically on GitHub. Brand icons live in scripts/icons.json.
 
@@ -69,7 +69,7 @@ CUSTOM_ICONS = {
                'stroke-linejoin="round"/>',
 }
 
-FONT_FILES = {"d": ("Syne", 800, "syne-800.woff2"), "d7": ("Syne", 700, "syne-700.woff2"),
+FONT_FILES = {"d": ("Syne", 700, "syne-700.woff2"),
               "r": ("Inst", 400, "instrument-sans-400.woff2"), "b": ("Inst", 600, "instrument-sans-600.woff2")}
 _metrics = {}
 
@@ -92,7 +92,7 @@ def svg_open(w, h, fonts, extra_css=""):
                 f"src: url(data:font/woff2;base64,{b64}) format('woff2'); }}\n")
     css += ("text { font-family: 'Inst', ui-sans-serif, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; "
             "font-weight: 400; text-rendering: geometricPrecision; }\n"
-            ".d { font-family: 'Syne', 'Inst', ui-sans-serif, system-ui, sans-serif; font-weight: 800; }\n"
+            ".d { font-family: 'Syne', 'Inst', ui-sans-serif, system-ui, sans-serif; font-weight: 700; }\n"
             ".b { font-weight: 600; }\n")
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
             f'viewBox="0 0 {w} {h}" role="img">\n<style>{css}{extra_css}</style>\n')
@@ -144,8 +144,10 @@ def header():
         o.append(f'<rect x="{ax+dx}" y="{y}" width="{ln+80}" height="{bh}" rx="{bh/2}" fill="{col}"/>')
         o.append(f'<circle class="job j{i}" cx="{ax+dx+bh/2}" cy="{y+bh/2}" r="8.5" fill="{INK}"/>')
     o.append("</g>")
-    x = 44
-    o.append(f'<text class="d" x="{x}" y="88" font-size="46" letter-spacing="-1" fill="{WHITE}">Tran Quang Ha</text>')
+    x, name, ns = 44, "Tran Quang Ha", 46
+    # Syne is wide: keep the name clear of the bars (a 24px gutter).
+    assert x + width(name, "d", ns) - len(name) < ax + min(b[1] for b in bars) - 24, "name overlaps bars"
+    o.append(f'<text class="d" x="{x}" y="88" font-size="{ns}" letter-spacing="-1" fill="{WHITE}">{name}</text>')
     o.append(f'<text x="{x}" y="123" font-size="16" fill="#E3E4FF">Backend engineer building AI-integrated systems:</text>')
     o.append(f'<text x="{x}" y="145" font-size="16" fill="#E3E4FF">RAG, queues, real-time.</text>')
     pill = "Open to backend / full-stack internships"
@@ -268,7 +270,7 @@ def stack(theme):
     icons = ICONS[c["icons"]]
     W, padx, label_w, row, ch = 800, 28, 156, 46, 30
     H = 2 * 26 + row * len(STACK) - (row - ch)
-    o = [svg_open(W, H, ["d7", "r", "b"]).replace("font-weight: 800", "font-weight: 700"),
+    o = [svg_open(W, H, ["d", "r", "b"]),
          f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="26" fill="{c["surface"]}" stroke="{c["line"]}"/>']
     y = 26
     for group, col, items in STACK:
