@@ -123,19 +123,23 @@ def header(theme):
     W, H, R = 800, 200, 26
     bars = [(46, 190), (10, 226), (62, 160)]  # x-offset, length
     ax, ay, bh, gap = 580, 40, 30, 20
-    anim = "".join(f".j{i} {{ animation-delay: {i*0.6:.2f}s; }}\n" for i in range(len(bars)))
-    css = ("@keyframes run { 0% { transform: translateX(0); opacity: 0; } 12% { opacity: 1; } "
-           "80% { opacity: 1; } 100% { transform: translateX(96px); opacity: 0; } }\n"
-           ".job { animation: run 3.4s cubic-bezier(.45,0,.35,1) infinite; }\n" + anim +
-           "@media (prefers-reduced-motion: reduce) { .job { animation: none !important; "
-           "opacity: 1; transform: translateX(38px); } }\n")
+    # One orchestrated moment: bars slide in one after another, then each job runs
+    # across its bar three times (there, back, there) and rests at the far end.
+    anim = "".join(f".b{i} {{ animation-delay: {i*0.15:.2f}s; }}\n.j{i} {{ animation-delay: {0.9 + i*0.4:.2f}s; }}\n"
+                   for i in range(len(bars)))
+    css = ("@keyframes enter { from { transform: translateX(300px); } }\n"
+           "@keyframes run { to { transform: translateX(96px); } }\n"
+           ".bar { animation: enter .6s cubic-bezier(.2,.8,.2,1) backwards; }\n"
+           ".job { animation: run 1.6s cubic-bezier(.45,0,.35,1) 3 alternate both; }\n" + anim +
+           "@media (prefers-reduced-motion: reduce) { .bar { animation: none !important; } "
+           ".job { animation: none !important; transform: translateX(96px); } }\n")
     o = [svg_open(W, H, ["d", "r", "b"], css),
          f'<defs><clipPath id="c"><rect width="{W}" height="{H}" rx="{R}"/></clipPath></defs>',
          f'<g clip-path="url(#c)"><rect width="{W}" height="{H}" fill="{c["surface"]}"/>']
     for i, (dx, ln) in enumerate(bars):
         y = ay + i * (bh + gap)
-        o.append(f'<rect x="{ax+dx}" y="{y}" width="{ln+80}" height="{bh}" rx="{bh/2}" fill="{ACCENT}"/>')
-        o.append(f'<circle class="job j{i}" cx="{ax+dx+bh/2}" cy="{y+bh/2}" r="9" fill="#fff"/>')
+        o.append(f'<g class="bar b{i}"><rect x="{ax+dx}" y="{y}" width="{ln+80}" height="{bh}" rx="{bh/2}" fill="{ACCENT}"/>'
+                 f'<circle class="job j{i}" cx="{ax+dx+bh/2}" cy="{y+bh/2}" r="9" fill="#fff"/></g>')
     o.append("</g>")
     o.append(f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="{R}" fill="none" stroke="{c["line"]}"/>')
     x, name, ns = 44, "Tran Quang Ha", 44
