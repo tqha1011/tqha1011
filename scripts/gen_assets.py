@@ -27,8 +27,8 @@ ICONS = json.loads((Path(__file__).resolve().parent / "icons.json").read_text())
 ACCENT = "#3438E8"
 
 THEMES = {
-    "light": dict(surface="#F4F5FB", line="#D5D9F2", text="#15142B", muted="#4B4A6B", icons="light"),
-    "dark": dict(surface="#1B1A36", line="#34335C", text="#F1F1FA", muted="#A9A8CC", icons="dark"),
+    "light": dict(surface="#F4F5FB", line="#D5D9F2", text="#15142B", muted="#4B4A6B", icons="light", dots="#B9BFE8", glow=".16"),
+    "dark": dict(surface="#1B1A36", line="#34335C", text="#F1F1FA", muted="#A9A8CC", icons="dark", dots="#4A4A86", glow=".30"),
 }
 
 PROJECTS = [
@@ -128,8 +128,17 @@ def header(theme):
            "@media (prefers-reduced-motion: reduce) { .bar { animation: none !important; } "
            ".job { animation: none !important; transform: translateX(96px); } }\n")
     o = [svg_open(W, H, ["r", "b", "x"], css),
-         f'<defs><clipPath id="c"><rect width="{W}" height="{H}" rx="{RADIUS}"/></clipPath></defs>',
-         f'<g clip-path="url(#c)"><rect width="{W}" height="{H}" fill="{c["surface"]}"/>']
+         f'<defs><clipPath id="c"><rect width="{W}" height="{H}" rx="{RADIUS}"/></clipPath>'
+         # Backdrop: a dot grid and a soft glow, both fading out before they reach the name.
+         f'<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="{c["dots"]}"/></pattern>'
+         f'<linearGradient id="fade" x1="0" x2="1"><stop offset=".32" stop-color="#fff" stop-opacity="0"/>'
+         f'<stop offset=".72" stop-color="#fff" stop-opacity="1"/></linearGradient>'
+         f'<mask id="m"><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>'
+         f'<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="{ACCENT}" stop-opacity="{c["glow"]}"/>'
+         f'<stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></radialGradient></defs>',
+         f'<g clip-path="url(#c)"><rect width="{W}" height="{H}" fill="{c["surface"]}"/>'
+         f'<ellipse cx="{ax+150}" cy="{ay+bh*1.5+gap}" rx="300" ry="150" fill="url(#glow)"/>'
+         f'<rect width="{W}" height="{H}" fill="url(#dots)" mask="url(#m)"/>']
     for i, (dx, ln) in enumerate(bars):
         y = ay + i * (bh + gap)
         o.append(f'<g class="bar b{i}"><rect x="{ax+dx}" y="{y}" width="{ln+80}" height="{bh}" rx="{bh/2}" fill="{ACCENT}"/>'
