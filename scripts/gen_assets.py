@@ -32,6 +32,9 @@ THEMES = {
 }
 
 PROJECTS = [
+    dict(slug="bidtix", name="BidTix",
+         desc=["Concert ticketing backend: booking and", "live auctions, built to never oversell."],
+         tech=["Java", "Spring Boot", "PostgreSQL", "Redis"]),
     dict(slug="smart-knowledge-hub", name="smart-knowledge-hub-backend",
          desc=["AI knowledge base: ask your documents,", "get answers with sources."],
          tech=["NestJS", "Redis", "pgvector", "Gemini"]),
@@ -176,12 +179,10 @@ def _title_size():
 TITLE = _title_size()
 
 
-def card_base(c, dashed=False):
-    dash = ' stroke-dasharray="7 6"' if dashed else ""
-    stroke = c["muted"] if dashed else c["line"]
+def card_base(c):
     bx, by = CW - PAD - BTN, PAD + BTN
     return (f'<rect x=".5" y=".5" width="{CW-1}" height="{CH-1}" rx="{RADIUS}" fill="{c["surface"]}" '
-            f'stroke="{stroke}"{dash}/>'
+            f'stroke="{c["line"]}"/>'
             f'<circle cx="{bx}" cy="{by}" r="{BTN}" fill="{ACCENT}"/>' + arrow(bx, by, "#fff"))
 
 
@@ -202,15 +203,6 @@ def project_card(p, theme):
         svg, w = entry(t, x, cy, TECH_SIZE, icons, c["text"], icon_size=15)
         b.append(svg); x += w + 20
     assert x - 20 <= CW - PAD, (p["name"], "tech row overflows")
-    return svg_open(CW, CH, ["r", "b", "x"]) + "\n".join(b) + "</svg>\n"
-
-
-def more_card(theme):
-    c = THEMES[theme]
-    b = [card_base(c, dashed=True)] + card_text(
-        c, "More projects", ["Smaller experiments, templates and", "coursework live on GitHub."])
-    b.append(f'<text class="b" x="{PAD}" y="{CH-PAD-8+TECH_SIZE*0.35:.1f}" font-size="{TECH_SIZE}" '
-             f'fill="{c["text"]}">View all repositories</text>')
     return svg_open(CW, CH, ["r", "b", "x"]) + "\n".join(b) + "</svg>\n"
 
 
@@ -242,7 +234,6 @@ def main():
         (ASSETS / f"header-{theme}.svg").write_text(header(theme))
         for p in PROJECTS:
             (ASSETS / f"project-{p['slug']}-{theme}.svg").write_text(project_card(p, theme))
-        (ASSETS / f"project-more-{theme}.svg").write_text(more_card(theme))
         (ASSETS / f"stack-{theme}.svg").write_text(stack(theme))
     print("ok")
 

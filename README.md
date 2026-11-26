@@ -12,6 +12,14 @@
 <table>
   <tr>
     <td width="50%">
+      <a href="https://github.com/tqha1011/BidTix">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/project-bidtix-dark.svg">
+          <img alt="BidTix: concert ticketing backend with booking and live auctions, built to never oversell. Java, Spring Boot, PostgreSQL, Redis. Explore repository." src="assets/project-bidtix-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
       <a href="https://github.com/tqha1011/smart-knowledge-hub-backend">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="assets/project-smart-knowledge-hub-dark.svg">
@@ -19,6 +27,8 @@
         </picture>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/tqha1011/FitworkBE-Nestjs">
         <picture>
@@ -27,8 +37,6 @@
         </picture>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/tqha1011/ShoeStore">
         <picture>
@@ -37,16 +45,10 @@
         </picture>
       </a>
     </td>
-    <td width="50%">
-      <a href="https://github.com/tqha1011?tab=repositories">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/project-more-dark.svg">
-          <img alt="More projects: view all repositories on GitHub." src="assets/project-more-light.svg" width="100%">
-        </picture>
-      </a>
-    </td>
   </tr>
 </table>
+
+[View all repositories](https://github.com/tqha1011?tab=repositories)
 
 ## Stack
 
